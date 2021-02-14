@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+html{
+    /* background: url("../images/office.jpg")no-repeat center center fixed; */
+    min-height: 100%;
+    min-width: 1024px;
+      
+    /* background: #00A7E1; */
+   background-image: url('../images/office.png');
+   max-width: 100%;
+    height: auto;
+}
+
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+section{
+    /* padding: 0 100px;
+    height: 100vh;
+    display: flex;
+    justify-content: center; */
+}
+body{
+    
+font-family: "Lato";
+  margin:0;
+  padding:0;
+  
+}
+h1,p{
+    text-align: center;
+    color: white;
+}
+
+
+img{
+    min-height: 100%;
+    min-width: 1024px;
+      
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background: #FF9B42;
+    border: 15px black;
+    color: white;
+    column-gap: 30px;
+    margin:0 auto;
+    padding: 10px; 
+    border-radius: 10px;
+
+}
+ label{
+     padding-bottom: 15px;
+     padding-top: 10px;
+ }
+.email,.name,.number{
+    
+    border-radius: 6px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Lato;
+    border:none;
+    
+}
+select{
+    border-radius: 6px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Lato;
+    border:none;
+}
+
+textarea{
+    font-family: Lato;
+    font-size: 20px;
+    border:none;
+}
+
+#submit{
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom:10px ;
+    margin-top: 25px;
+    font-family: Lato;
+    font-size: 20px;
+    background:#00A7E1;
+    border:none;
+    color: white;
+}
